@@ -8,7 +8,7 @@ export async function connectToDatabase() {
     return { db: cachedDb, client: cachedClient }
   }
 
-  const uri = "mongodb+srv://Aftab:ronaldo@cluster0.wnavt.mongodb.net/utsav?retryWrites=true&w=majority&appName=Cluster0";
+  const uri = process.env.MONGODB_URI
 
   if (!uri) {
     throw new Error("Please define the MONGODB_URI environment variable")
