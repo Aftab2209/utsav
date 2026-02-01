@@ -81,7 +81,7 @@ export default function ResponsesPage() {
               No response yet
             </p>
             <p className="text-sm text-muted-foreground/70 text-center">
-              Waiting for that special someone to answer...
+              SABR KAR BHADWE..
             </p>
           </div>
         )}
